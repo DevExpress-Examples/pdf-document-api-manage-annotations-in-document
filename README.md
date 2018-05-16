@@ -1,4 +1,4 @@
-# How To: How to add a text markup annotation to PDF
+# How to add a text markup annotation to PDF
 
 <p>This example shows how to create a text markup annotation that highlights a text in a PDF document and specify the annotation properties.</p>
 
