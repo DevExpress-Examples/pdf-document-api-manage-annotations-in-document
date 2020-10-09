@@ -1,8 +1,8 @@
 ﻿Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30524.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CreateMarkupAnnotation", "CreateMarkupAnnotation\CreateMarkupAnnotation.vbproj", "{291B2970-0714-4719-AD77-3512E5C26507}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PdfMarkupAnnotations", "CreateMarkupAnnotation\PdfMarkupAnnotations.vbproj", "{291B2970-0714-4719-AD77-3512E5C26507}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,5 +17,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2411D87-C7C2-46C7-845C-0F80182C08DA}
 	EndGlobalSection
 EndGlobal
