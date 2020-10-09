@@ -1,6 +1,5 @@
-# How to add a text markup annotation to PDF
+# How to Manage Annotations in a PDF Document
 
-<p>This example shows how to create a text markup annotation that highlights a text in a PDF document and specify the annotation properties.</p>
+<p>The PDF Document API allows you to create text annotations (or sticky notes) and text markup annotations (text highlights). This example shows how to create, edit, add comments and remove PDF annotations.</p>
 
-<p>To add a text markup annotation to a page, call one of <a href="https://documentation.devexpress.com/OfficeFileAPI/DevExpress.Pdf.PdfDocumentProcessor.AddTextMarkupAnnotation.method(sbaKFQ)"><u>PdfDocumentProcessor.AddTextMarkupAnnotation</u></a> overload methods, where specify the page number and a page area  corresponding to a text that should be annotated on this page.  Note that if a specified page area does not correspond to a text on the page, the annotation is not created and <strong>PdfDocumentProcessor.AddTextMarkupAnnotation</strong> overload methods return <strong>null</strong>.</p>
-<br/>
+<p>Refer to the following documentation article for more information: <a>Annotations<a href="https://docs.devexpress.com/OfficeFileAPI/119122/pdf-document-api/annotations?v=20.2&p=netframework"></p>
