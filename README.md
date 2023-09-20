@@ -5,6 +5,11 @@
 <!-- default badges end -->
 # PDF Document API - Manage Annotations in a PDF Document
 
-<p>The PDF Document API allows you to create text annotations (or sticky notes) and text markup annotations (text highlights). This example shows how to create, edit, add comments, and remove PDF annotations.</p>
+The PDF Document API allows you to create text annotations (or sticky notes) and text markup annotations (text highlights). This example shows how to create, edit, add comments, and remove PDF annotations.
 
-<p>Refer to the following documentation article for more information: [Annotations](https://docs.devexpress.com/OfficeFileAPI/119122/pdf-document-api/annotations)</p>
+## Files to Review
+* [Program.cs](./CS/CreateMarkupAnnotation/Program.cs) (VB: [Program.vb](./VB/CreateMarkupAnnotation/Program.vb))
+
+## Documentation
+
+ * [Annotations](https://docs.devexpress.com/OfficeFileAPI/119122/pdf-document-api/annotations)
