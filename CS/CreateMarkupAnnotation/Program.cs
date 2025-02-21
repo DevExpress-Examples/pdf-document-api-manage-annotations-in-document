@@ -1,4 +1,5 @@
 ﻿using DevExpress.Pdf;
+using System.Diagnostics;
 using System.Linq;
 
 namespace PdfMarkupAnnotations
@@ -20,7 +21,7 @@ namespace PdfMarkupAnnotations
                 //Save the result:
                 processor.SaveDocument("..\\..\\Result.pdf");
             }
-            System.Diagnostics.Process.Start("..\\..\\Result.pdf");
+            Process.Start(new ProcessStartInfo("..\\..\\Result.pdf") { UseShellExecute = true });
         }
 
 
@@ -31,7 +32,7 @@ namespace PdfMarkupAnnotations
             PdfDocumentPosition startPosition = new PdfDocumentPosition(1, new PdfPoint(113, 224));
             PdfDocumentPosition endPosition = new PdfDocumentPosition(1, new PdfPoint(272, 207));
 
-            PdfTextMarkupAnnotationData textMarkupAnnotation = processor.AddTextMarkupAnnotation(startPosition,endPosition,
+            PdfTextMarkupAnnotationData textMarkupAnnotation = processor.AddTextMarkupAnnotation(startPosition, endPosition,
                                         PdfTextMarkupAnnotationType.Highlight);
             if (textMarkupAnnotation != null)
             {

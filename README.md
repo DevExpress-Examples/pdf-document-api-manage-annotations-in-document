@@ -8,12 +8,17 @@
 
 The PDF Document API allows you to create text annotations (or sticky notes) and text markup annotations (text highlights). This example shows how to create, edit, add comments, and remove PDF annotations.
 
+>[!IMPORTANT]
+> You need a license for the **DevExpress Office File API Subscription** or **DevExpress Universal Subscription** to use the libraries listed below in production code.
+
 ## Files to Review
+
 * [Program.cs](./CS/CreateMarkupAnnotation/Program.cs) (VB: [Program.vb](./VB/CreateMarkupAnnotation/Program.vb))
 
 ## Documentation
 
- * [Annotations](https://docs.devexpress.com/OfficeFileAPI/119122/pdf-document-api/annotations)
+* [Annotations](https://docs.devexpress.com/OfficeFileAPI/119122/pdf-document-api/annotations)
+
 <!-- feedback -->
 ## Does this example address your development requirements/objectives?
 
