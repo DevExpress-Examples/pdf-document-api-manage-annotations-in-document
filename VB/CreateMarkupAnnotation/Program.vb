@@ -9,15 +9,15 @@ Namespace PdfMarkupAnnotations
         Shared Sub Main(ByVal args As String())
             Using processor As PdfDocumentProcessor = New PdfDocumentProcessor()
                 'Load a document:
-                processor.LoadDocument("..\..\Document.pdf")
+                processor.LoadDocument("..\..\..\Document.pdf")
                 CreateAnnotations(processor)
                 EditAnnotations(processor)
                 DeleteAnnotations(processor)
                 'Save the result:
-                processor.SaveDocument("..\..\Result.pdf")
+                processor.SaveDocument("..\..\..\Result.pdf")
             End Using
 
-            Process.Start(New ProcessStartInfo("..\..\Result.pdf") With {.UseShellExecute = True})
+            Process.Start(New ProcessStartInfo("..\..\..\Result.pdf") With {.UseShellExecute = True})
         End Sub
 
         Private Shared Sub CreateAnnotations(ByVal processor As PdfDocumentProcessor)

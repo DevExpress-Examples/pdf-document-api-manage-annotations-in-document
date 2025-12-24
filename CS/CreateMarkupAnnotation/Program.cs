@@ -13,15 +13,15 @@ namespace PdfMarkupAnnotations
             using (PdfDocumentProcessor processor = new PdfDocumentProcessor())
             {
                 //Load a document:
-                processor.LoadDocument("..\\..\\Document.pdf");
+                processor.LoadDocument("..\\..\\..\\Document.pdf");
                 CreateAnnotations(processor);
                 EditAnnotations(processor);
                 DeleteAnnotations(processor);
 
                 //Save the result:
-                processor.SaveDocument("..\\..\\Result.pdf");
+                processor.SaveDocument("..\\..\\..\\Result.pdf");
             }
-            Process.Start(new ProcessStartInfo("..\\..\\Result.pdf") { UseShellExecute = true });
+            Process.Start(new ProcessStartInfo("..\\..\\..\\Result.pdf") { UseShellExecute = true });
         }
 
 
