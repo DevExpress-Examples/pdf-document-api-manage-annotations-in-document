@@ -11,7 +11,7 @@
 <p>To add a text markup annotation to a page, call one of <a href="https://documentation.devexpress.com/OfficeFileAPI/DevExpress.Pdf.PdfDocumentProcessor.AddTextMarkupAnnotation.method(sbaKFQ)"><u>PdfDocumentProcessor.AddTextMarkupAnnotation</u></a> overload methods, where specify the page number and a page area  corresponding to a text that should be annotated on this page.  Note that if a specified page area does not correspond to a text on the page, the annotation is not created and <strong>PdfDocumentProcessor.AddTextMarkupAnnotation</strong> overload methods return <strong>null</strong>.</p>
 <br/>
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=pdf-document-api-manage-annotations-in-document&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=pdf-document-api-manage-annotations-in-document&~~~was_helpful=no)
 
