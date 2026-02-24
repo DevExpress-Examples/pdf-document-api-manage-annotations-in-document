@@ -21,3 +21,10 @@ Note that if the specified page area does not correspond to text on the page, th
 
 (you will be redirected to DevExpress.com to submit your response)
 <!-- feedback end -->
+<!-- feedback -->
+## Does This Example Address Your Development Requirements/Objectives?
+
+[<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=pdf-document-api-manage-annotations-in-document&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=pdf-document-api-manage-annotations-in-document&~~~was_helpful=no)
+
+(you will be redirected to DevExpress.com to submit your response)
+<!-- feedback end -->
