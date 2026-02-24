@@ -10,7 +10,7 @@
 This example shows how to create a text markup annotation that highlights text in a PDF document and how to specify the annotation properties.
 
 To add a text markup annotation to a page, call one of the  
-[PdfDocumentProcessor.AddTextMarkupAnnotation](https://documentation.devexpress.com/OfficeFileAPI/DevExpress.Pdf.PdfDocumentProcessor.AddTextMarkupAnnotation.method\(sbaKFQ\))  
+[PdfDocumentProcessor.AddTextMarkupAnnotation](https://docs.devexpress.com/OfficeFileAPI/DevExpress.Pdf.PdfDocumentProcessor.AddTextMarkupAnnotation.overloads)  
 overload methods, specifying the page number and a page area corresponding to the text that should be annotated on this page.
 
 Note that if the specified page area does not correspond to text on the page, the annotation is **not** created, and the `PdfDocumentProcessor.AddTextMarkupAnnotation` overload methods return **null**.
