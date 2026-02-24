@@ -4,13 +4,17 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 [![](https://img.shields.io/badge/💬_Leave_Feedback-feecdd?style=flat-square)](#does-this-example-address-your-development-requirementsobjectives)
 <!-- default badges end -->
-# How to add a text markup annotation to PDF
 
-<p>This example shows how to create a text markup annotation that highlights a text in a PDF document and specify the annotation properties.</p>
+# How to Add a Text Markup Annotation to a PDF
 
-<p>To add a text markup annotation to a page, call one of <a href="https://documentation.devexpress.com/OfficeFileAPI/DevExpress.Pdf.PdfDocumentProcessor.AddTextMarkupAnnotation.method(sbaKFQ)"><u>PdfDocumentProcessor.AddTextMarkupAnnotation</u></a> overload methods, where specify the page number and a page area  corresponding to a text that should be annotated on this page.  Note that if a specified page area does not correspond to a text on the page, the annotation is not created and <strong>PdfDocumentProcessor.AddTextMarkupAnnotation</strong> overload methods return <strong>null</strong>.</p>
-<br/>
-<!-- feedback -->
+This example shows how to create a text markup annotation that highlights text in a PDF document and how to specify the annotation properties.
+
+To add a text markup annotation to a page, call one of the  
+[PdfDocumentProcessor.AddTextMarkupAnnotation](https://documentation.devexpress.com/OfficeFileAPI/DevExpress.Pdf.PdfDocumentProcessor.AddTextMarkupAnnotation.method\(sbaKFQ\))  
+overload methods, specifying the page number and a page area corresponding to the text that should be annotated on this page.
+
+Note that if the specified page area does not correspond to text on the page, the annotation is **not** created, and the `PdfDocumentProcessor.AddTextMarkupAnnotation` overload methods return **null**.
+
 ## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=pdf-document-api-manage-annotations-in-document&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=pdf-document-api-manage-annotations-in-document&~~~was_helpful=no)
